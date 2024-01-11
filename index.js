@@ -16,7 +16,7 @@ const carousel = document.querySelector("#carouselInner");
 const API_KEY =
   "live_pxCsDhaEpvdE6grzHJZVGMwxV85wyBMhiXoBwZ1N6of3WJp9NNjBJAXmRNukMxVy";
 
-/**
+/***
  * 1. Create an async function "initialLoad" that does the following:
  * - Retrieve a list of breeds from the cat API using fetch().
  * - Create new <options> for each of these breeds, and append them to breedSelect.
